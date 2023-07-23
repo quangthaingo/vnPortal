@@ -1,0 +1,20 @@
+.HotnewsControl .Header {
+    background: #1e567b;
+    background: -moz-linear-gradient(left, #9b0000 0%, #e24f4f 100%);
+    background: -webkit-linear-gradient(left, #1c5479 0%, #4898cc 100%);
+    background: linear-gradient(to right, #9b0000 0%, #E03E3B 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9b0000', endColorstr='#e24f4f', GradientType=1);
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #189bf7;
+    text-align: left;
+    height: 35px;
+    line-height: 35px;
+}
+
+.HotnewsControl .Header span {
+    color: #ffffff;
+    padding: 0 10px 0 20px;
+    font-weight: bold;
+    line-height: 35px;
+}
