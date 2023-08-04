@@ -1,0 +1,94 @@
+.WebLink {
+    background: #fff;
+    border: 0px;
+    border-radius: 2px;
+    box-shadow: -2px 2px 4px #bbb;
+    padding: 10px;
+    text-align: left !important;
+    margin: 10px 0;
+    height: auto !important;
+}
+
+.WebLink .HeadLink {
+    border: 0px;
+    height: 36px;
+    background: #189bf7;
+    color: #fff !important;
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: -2px 2px 4px #c5b5b5;
+    margin-bottom: 10px;
+}
+
+.WebLink .HeadLink .Title {
+    height: 36px;
+    color: #ffffff;
+    padding: 0 10px 0 20px;
+    padding-top: 5px;
+    color: #ffffff;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.WebLink .HeadLink .Title:before {
+    content: "\f009";
+    font-size: 30px;
+    font-family: 'Material Icons';
+    vertical-align: top;
+    font-weight: 400;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    top: 2px;
+}
+
+.WebLink .Content ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.WebLink .Content * {
+    font-size: 13px !important;
+}
+
+.WebLink .Content ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.WebLink .RadComboBox_Office2007 .rcbInputCell,
+.RadComboBox_Office2007 .rcbArrowCell {
+    background: none !important;
+    padding: 5px 10px !important;
+    width: 100% !important;
+}
+
+tr.rcbReadOnly {
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+}
+
+.RadComboBox .rcbEmptyMessage {
+    font-style: normal !important;
+    color: #444444 !important;
+}
+
+.RadComboBoxDropDown .rcbList>li {
+    padding: 10px;
+}
+
+.RadComboBox * {
+    font-size: 14px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    div.WebLink {
+        width: 100vw;
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+}
